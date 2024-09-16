@@ -1,0 +1,23 @@
+.Desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Desktop .left-column, .Desktop .right-column {
+    width: 50%;
+}
+.Desktop .left-column {
+    background-color: #703738;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Desktop .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+
+}
