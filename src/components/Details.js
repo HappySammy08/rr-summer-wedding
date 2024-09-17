@@ -5,16 +5,22 @@ export default function Details() {
     <div>
       <div className="App-details">
         <p>
-          <span>Date: </span>
-          <b>Saturday, January 18, 2025</b>
+          <b>Saturday, 18th of January 2025</b>
           <br />
-          <span>Church: </span>
+          <br />
+
           <b>Our Lady of Victories Church</b>
           <br />
 
-          <span>Reception: </span>
+          <span>2 Cannon, Quezon City, 1112 Metro Manila</span>
+          <br />
+          <br />
           <b>Meyer's Place</b>
           <br />
+          <span>Dapitan St, Quezon City, Metro Manila</span>
+          <br />
+          <br />
+          <b>Formal Invitation to follow</b>
         </p>
       </div>
     </div>

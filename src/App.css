@@ -86,7 +86,7 @@ i, b {
 .App-details {
   display: flex;
   justify-content: center;
-  text-align: justify;
+  text-align: center;
 }
 
 .App-calendar {
