@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import rose from "../assets/rose-red.png";
+
 export default function Details() {
   return (
     <div>
       <div className="App-details">
         <p>
-          <b>Saturday, 18th of January 2025</b>
+          <div className="App-divider">
+            <img src={rose} alt="Rose" />
+          </div>
+          <b>Monday, 29th of December 2025</b>
           <br />
           <br />
 

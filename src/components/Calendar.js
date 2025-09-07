@@ -35,7 +35,7 @@ export default function Calendar() {
             flexWrap: "wrap",
           },
           label: {
-            fontSize: "2rem",
+            fontSize: "2.3rem",
             fontFamily: "Light",
           },
         },
@@ -49,12 +49,12 @@ export default function Calendar() {
       MuiDayCalendar: {
         styleOverrides: {
           weekContainer: {
-            fontSize: "5rem",
+            fontSize: "8rem",
             fontFamily: "Light",
           },
           weekDayLabel: {
             color: "#fff",
-            fontSize: "1.2rem",
+            fontSize: "1.8rem",
             fontFamily: "Light",
           },
         },
@@ -78,7 +78,7 @@ export default function Calendar() {
             },
             fontFamily: "Light",
             color: "#fff",
-            fontSize: "1.1rem",
+            fontSize: "1.4rem",
           },
         },
       },
@@ -92,7 +92,7 @@ export default function Calendar() {
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DemoContainer components={["DateCalendar"]}>
               <DateCalendar
-                defaultValue={dayjs("2025-01-18")}
+                defaultValue={dayjs("2025-12-29")}
                 views={["day"]}
                 componentProps={{
                   MuiPickersArrowSwitcher: { sx: { display: "none" } },
