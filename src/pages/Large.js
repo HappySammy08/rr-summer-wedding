@@ -11,15 +11,16 @@ import "../styles/desktop.css";
 export default function Large() {
   return (
     <div className="Desktop">
-      <div className="left-column">
-        <Calendar />
-      </div>
+      {" "}
       <div className="right-column">
         <Header />
-        <Divider />
+        {/* <Divider /> */}
 
         <Details />
         <Footer />
+      </div>
+      <div className="left-column">
+        <Calendar />
       </div>
     </div>
   );
