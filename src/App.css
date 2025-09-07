@@ -19,7 +19,7 @@ i, b {
 .App {
   text-align: center;
   font-family: "Light";
-  background-color: #F6F0E2;
+  background-color: #fffaee;
   width: calc(100%);
   display: flex;
   
@@ -97,6 +97,8 @@ i, b {
 .App-calendar {
   display: flex;
   justify-content: center;
+  height: auto;
+  width: 100%;
 }
 
 .App-footer h1 {
