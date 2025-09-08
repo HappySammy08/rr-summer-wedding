@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Divider from "../components/Divider";
+
 import rose from "../assets/rose-red.png";
 
 export default function Details() {
@@ -38,6 +40,7 @@ export default function Details() {
           <br />
           <br />
           <b>Formal Invitation to follow</b>
+          <Divider />
         </p>
       </div>
     </div>
