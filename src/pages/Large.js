@@ -14,9 +14,9 @@ export default function Large() {
       {" "}
       <div className="right-column">
         <Header />
-        {/* <Divider /> */}
 
         <Details />
+
         <Footer />
       </div>
       <div className="left-column">
