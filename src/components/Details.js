@@ -12,7 +12,7 @@ export default function Details() {
           <div className="App-divider">
             <img src={rose} alt="Rose" />
           </div>
-          <b>Monday, 29th of December 2025</b>
+          <b>Saturday, 27th of December 2025</b>
           <br />
           <br />
 

@@ -92,7 +92,7 @@ export default function Calendar() {
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DemoContainer components={["DateCalendar"]}>
               <DateCalendar
-                defaultValue={dayjs("2025-12-29")}
+                defaultValue={dayjs("2025-12-27")}
                 views={["day"]}
                 componentProps={{
                   MuiPickersArrowSwitcher: { sx: { display: "none" } },
